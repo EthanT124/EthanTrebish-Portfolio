@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+#intro
+{
+  font-family: 'Lusitana', serif;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+html, .App {
+  background-color: #3d5a80 ;
+  color: white;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.signature-text {
+  font-family: cursive; /* Use a cursive font for a handwritten look */
+  font-size: 24px; /* Adjust font size as needed */
+  color: #333; /* Set text color */
+  text-decoration: underline; /* Add an underline for emphasis */
+  /* Additional styling can be applied as needed */
+}
+h5 {
+  background-color: #aaaaaa;
+  border-radius: 20px; /* Making border radius */
+  width: 50%; /* Making auto-sizable width */
+  height: auto; /* Making auto-sizable height */
+  padding: 5px 30px 5px 30px; /* Making space around letters */
+  font-size: 18px; /* Changing font size */
+}
+
